@@ -153,7 +153,6 @@ window.onload = () => {
     })
       .then((response) => response.json())
       .then((tigerArr) => {
-        const main = document.getElementById("main");
         const anchorTwo = document.getElementById("anchorTwo");
 
         const row = document.createElement("div");
